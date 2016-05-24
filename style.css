@@ -1,0 +1,172 @@
+<style type="text/css">
+
+* {
+	font-family: Helvetica;
+	}
+
+/* Sets all font to Helvetica and background color to white */
+body {
+	font-family: Helvetica;
+	background-color: #f2f2f2;
+	}
+
+/* Creates text/link styling for nav bar */
+a:link, a:visited {
+	background-color: #8c8c8c;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	}
+
+/* Nav bar - Creates link styling when mouse is hovering links */
+a:hover, a:active {
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px 3px rgba(192, 192, 192, .3);
+	}
+
+
+
+.nav {
+	background-color: #8c8c8c;
+	font-size: 1.4em;
+	letter-spacing: 2px;		/* Increases space between letters */
+	text-transform: lowercase;	/* Changes all text to lowercase */
+	font-weight: normal;
+	color: white;
+	
+	margin-top: -10px;		/* Stretches nav bar up, removing white space */
+	/*margin-right: -4px;	/* Stretches nav bar right, removing white space */
+	/*margin-bottom: 0px;
+	/*margin-left: -10px;		/* Stretches nav bar left, removing white space */
+	padding: 30px;		/* Widens nav bar vertically */
+	
+	
+	/* Creates a 5px shadow. Pushes shadow out 5px around all four edges. 
+	RGBA sets color to gray that is 90 percent solid */
+	box-shadow: 0 0 5px 5px rgba(192, 192, 192, .9);
+	
+	text-align: right;
+	list-style: none;		/* Removes bullets from <ul> tag */
+	
+	/* Creates a fixed navigation bar */
+	/* Need to fix so that it works across multiple browsers
+		refer to CSS3 McFarland pg 506 */
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 20px;
+	
+}
+
+/* Makes the nav bar list inline (horizontal) */	
+.nav li {
+	display: inline-block;
+	
+	}
+	
+	
+div {
+	/* Stretches div box, creating the left and right columns */
+	width: 960px;		
+	
+	margin-top: auto;
+	margin-left: auto;			/* Centers div box */
+	margin-right: auto;			/* Centers div box */
+	padding: auto;
+	}
+
+.intro {
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	background-color: #bfbfbf;
+	padding: 60px;
+	margin-top: 20px;
+	margin-right: -15px;
+	margin-bottom: auto;
+	margin-left: -15px;
+	
+	}
+
+/* Aligns all H2 text to the center */
+h2 {
+	text-align: center;
+}
+
+.portfolio {
+	color: gray;
+	background-color: white;
+	margin-top: -20px;
+	margin-right: -15px;
+	margin-bottom: 15px;
+	margin-left: -15px;
+	padding: 15px;
+	}
+
+.images {
+	text-align: center;		/* Vertically centers images */
+	padding: 20px;		/* Creates white space (padding) between images */
+	}
+
+.img {
+	max-width: 100%;		/* Declares image's max width, preventing zooming */
+	height: auto;
+	display: inline;		/* Positions images side by side (inline) */
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;			/* Creates white space (padding) between images */
+	}
+
+
+
+.contact {
+	color: gray;
+	background-color: white;
+	margin-top: -20px;
+	margin-right: -15px;
+	margin-bottom: 20px;
+	margin-left: -15px;
+	padding: 15px;
+	/* Creates line separating portfolio & contact sections */
+	border-top: solid #f2f2f2 1px;		
+	}
+
+/* Removes bullets from contact form */
+ul {
+	list-style: none;	
+	}
+
+/* Creates white space (padding) for contact form */
+ul li {
+	padding: 5px;
+	}
+
+.about {
+	background-color: silver;
+	color: white;
+	padding: auto;
+	margin-top: -20px;
+	margin-left: -8px;
+	margin-right: -8px;
+	}
+
+	
+.about p, .credits, .social_media, .footnote {
+	text-align: center;
+	}
+
+.about {
+	padding: 5px;
+	}
+
+.footnote {
+	background-color: white;
+	color: black;
+	}
+
+
+</style>
